@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+    background-color: #f0f2f5; /* Light background color */
+}
+
+section {
+    width: 100%; /* Full width */
+    max-width: 400px; /* Maximum width for form sections */
+    display: flex;
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Center horizontally */
+    text-align: left; /* Align text to the left */
+    background-color: white; /* Background color for sections */
+    padding: 30px; /* Padding around content */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 20px; /* Space below the image */
+}
+
+label {
+    font-weight: bold; /* Bold labels for better visibility */
+    margin-top: 15px; /* Margin for spacing */
+}
+
+/* Uniform styling for input fields */
+input[type="text"], 
+input[type="password"], 
+button {
+    width: 100%; /* Full width for inputs and buttons */
+    margin: 10px 0; /* Spacing for inputs and buttons */
+    padding: 10px; /* Padding inside */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 5px; /* Rounded corners */
+}
+
+button {
+    background-color: #007bff; /* Button color */
+    color: white; /* Button text color */
+    border: none; /* No border */
+    cursor: pointer; /* Pointer on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker button color on hover */
+}
+
+p {
+    margin-top: 20px; /* Space above messages */
+    color: red; /* Default message color */
+}
+
+#quizResult {
+    color: green; /* Success color for quiz results */
+}
+
+/* Additional styles for questions */
+h2 {
+    margin-top: 20px; /* Space above question titles */
+}
+
+/* Styles for radio and checkbox inputs */
+input[type="radio"], 
+input[type="checkbox"] {
+    width: auto; /* Reset width for radio and checkboxes */
+    margin: 0; /* Remove margin */
+}
+
+/* Additional styling for quiz options */
+.quiz-option {
+    display: flex; /* Use Flexbox for layout */
+    align-items: center; /* Center vertically */
+    margin: 5px 0; /* Uniform spacing between options */
+}
+
+label.option-label {
+    margin-left: 10px; /* Indent option text for better UX */
+}
+
+#login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginForm {
+    justify-content: center;
+}
